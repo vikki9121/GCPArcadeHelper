@@ -15,7 +15,7 @@ const Resources = () => {
     '#arc120':["https://github.com/quiccklabs/Labs_solutions/blob/master/The%20Basics%20of%20Google%20Cloud%20Compute%3A%20Challenge%20Lab"],
     '#arc107':["https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Looker%3A%20Challenge%20Lab"],
     '#gsp401':["https://github.com/quiccklabs/Labs_solutions/blob/master/Cloud%20Scheduler%3A%20Qwik%20Start"],
-    
+
 
 
     ///// Add more labs and arrays of links as needed here///////
@@ -44,7 +44,7 @@ const Resources = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10 p-4">
+    <div className="max-w-lg mx-auto mt-20 p-4">
       <form onSubmit={handleSearchSubmit} className="flex flex-col md:flex-row items-center gap-2">
         <input
           type="text"
