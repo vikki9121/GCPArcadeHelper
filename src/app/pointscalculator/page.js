@@ -13,7 +13,7 @@ const PointsCalculator = () => {
 
         // Dummy timeout to simulate an API call
         setTimeout(() => {
-            setPoints(1234); // Replace with actual logic to calculate points
+            setPoints(0); // Replace with actual logic to calculate points
             setIsLoading(false);
         }, 2000);
     };
