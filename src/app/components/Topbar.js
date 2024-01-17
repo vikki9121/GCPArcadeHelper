@@ -25,17 +25,17 @@ const TopbarItem = ({ href, icon, label }) => (
     </li>
 );
 
-
 const Topbar = () => {
     return (
-        <nav className="fixed top-[4 rem] left-0 right-0 bg-white dark:bg-gray-800 shadow-lg">
-            <ul className="flex justify-between items-center p-2 overflow-x-auto">
-                {menuItems.map((item, index) => (
-                    <TopbarItem key={index} {...item} />
-                ))}
-            </ul>
-        </nav>
+      // Adjust the top position to align with the bottom of the Header
+      <nav className="fixed top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg">
+        <ul className="flex justify-between items-center p-2 overflow-x-auto">
+          {menuItems.map((item, index) => (
+            <TopbarItem key={index} {...item} />
+          ))}
+        </ul>
+      </nav>
     );
-};
-
-export default Topbar;
+  };
+  
+  export default Topbar;

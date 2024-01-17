@@ -44,7 +44,8 @@ const Resources = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-20 p-4">
+    <div className="fixed top-[10rem] inset-x-0  z-40"> {/* Adjust top-[value] accordingly */}
+    <div className="max-w-lg mx-auto p-4">
       <form onSubmit={handleSearchSubmit} className="flex flex-col md:flex-row items-center gap-2">
         <input
           type="text"
@@ -60,7 +61,6 @@ const Resources = () => {
           Search
         </button>
       </form>
-
       {!isLabFound && (
         <div className="mt-4 p-4 bg-red-100 text-red-700 border border-red-200 rounded-lg text-center">
           <p>Lab file not found or uploaded.</p>
@@ -83,6 +83,7 @@ const Resources = () => {
           ))}
         </div>
       )}
+    </div>
     </div>
   );
 };
