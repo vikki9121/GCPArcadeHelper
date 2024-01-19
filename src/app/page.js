@@ -5,7 +5,7 @@ export default function Home() {
     <div>
     <Head>
       <title>Your Page Title</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.ico.png" />
     </Head>
 
   
